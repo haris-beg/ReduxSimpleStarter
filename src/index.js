@@ -7,4 +7,4 @@ const App = function() {
 }
 
 // Take this component's generated HTML and put it on the page (that is, in the DOM).
-ReactDOM.render(React.createElement(App, null), document.querySelector('.container'));
+ReactDOM.render(<App/>, document.querySelector('.container'));
